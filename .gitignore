@@ -1,0 +1,8 @@
+/.idea/
+dist/
+.parcel-cache/
+node_modules/
+.env
+.vscode
+.prettierignore
+/server/promoApi/bufferImage.png
