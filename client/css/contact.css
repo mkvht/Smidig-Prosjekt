@@ -1,0 +1,99 @@
+.ContactMain{
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.ContactTitle{
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0.14em;
+}
+
+.ContactText{
+  width: 500px;
+  font-weight: 450;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.ContactLabelInputField{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+}
+
+.ContactLabelField{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.ContactMandatory{
+  color: red;
+  font-size: 16px;
+}
+
+.ContactInputWidth{
+  width: 290px;
+  height: 40px;
+  padding-left: 5px;
+  border-width: 2px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.ContactBottomHalf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactYourMessage{
+  width: 600px;
+  height: 150px;
+  border-width: 2px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.ContactSubmitButton{
+  background-color: #2A293C;
+  border: none;
+  color: white;
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; 
+}
+
+
+
+
+
+
+
+
+
+

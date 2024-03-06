@@ -1,0 +1,515 @@
+
+/**********
+ HEADER
+ **********/
+.project-header {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 1vh;
+    letter-spacing: 0.06em;
+}
+
+
+.project-subheader {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.project-follow-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-follow-btn {
+    text-align: center;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/***********
+ WHAT WE DO
+************/
+.what-we-do {
+    margin: 0 0 0 1vw !important;
+}
+
+.what-we-do-container {
+    column-gap: 4vw;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 0;
+    width: 75vw;
+    height: auto;
+}
+
+.what-we-do-text p{
+    float: left;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+    margin: 3vh;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.what-we-do-statement {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #0BCFBBFF;
+    width: 30vw;
+    padding: 3vw;
+    height: 0;
+    margin-top: 10vh;
+    line-height: 1.4;
+}
+
+.what-we-do-image {
+    border-radius: 8px;
+    width: 25vw;
+}
+
+
+
+/**************
+ HOW IT WORKS
+***************/
+.how-it-works {
+    margin: 0 0 0 20vw !important;
+}
+
+.how-it-works-component {
+    display: grid;
+    flex-direction: row;
+    width: 75vw;
+    justify-content: flex-end;
+}
+
+.how-it-works-container {
+    column-gap: 12vw;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    width: 55vw;
+    transform: translateX(-50vw);
+    align-items: flex-end;
+}
+
+.how-it-works-text {
+    width: 28vw;
+    float: right;
+    padding: 3vh;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.how-it-works-image {
+    border-radius: 8px;
+    width: 30vw;
+}
+
+/********
+ WHY
+ ********/
+.why {
+    margin: 0 0 0 2vh !important;
+}
+
+.why-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.why-container {
+    column-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    row-gap: 50px;
+    width: 100%;
+    padding: 2vh;
+}
+
+.why-text {
+    width: 100%;
+    float: left;
+    margin: 3vh;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.why-image {
+    width: 30vw;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/***************************
+ WHAT YOUR DONATIONS CAN DO
+ ***************************/
+.what-your-donations-can-do {
+    margin: 0 0 0 2vh !important;
+}
+
+.what-your-donations-can-do-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: fit-content;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translate(-50%, -50%);
+}
+
+.impact-list {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.impact-item {
+    margin: 0 2vw 0 2vw;
+}
+
+.impact-item-text {
+    text-align: center;
+    margin: 10px;
+    width: 17vw;
+    height: auto;
+
+}
+
+.impact-item-cost {
+    text-align: center;
+}
+
+.impact-item-cost p {
+    color: #0bcfbb;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.impact-item-text p {
+    color: #0bcfbb;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+
+}
+
+.impact-item-cost-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    color: #0bcfbb;
+}
+
+
+/*************
+ YOUR IMPACT
+ *************/
+.your-impact {
+    margin: 0 0 0 58vw !important;
+}
+
+.your-impact-header{
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+
+.your-impact-component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.your-impact-container {
+    display: inline-block;
+    align-items: flex-end;
+}
+
+.your-impact-images-container {
+    column-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    row-gap: 50px;
+    width: 100%;
+    padding: 2vh;
+}
+
+.your-impact-image{
+    margin-top: 5vh;
+    border-radius: 8px;
+    width: 30vw;
+    height: auto;
+}
+
+.your-impact-stats h2{
+    color: #0BCFBB;
+}
+
+.your-impact-stats p{
+    font-weight: bolder;
+    line-height: 1.4;
+}
+.your-impact-text{
+    width: 30vw;
+    float: right;
+    text-align: justify;
+    line-height: 1.4;
+
+}
+
+/**************
+ SUPPORTERS
+ **************/
+.supporters {
+    margin: 0 0 0 59vw !important;
+}
+
+.supporters-logo-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.supporters-image-size {
+    width: 30vw;
+}
+
+.supporters-logo{
+    width: 11vw;
+}
+
+
+
+/*************
+ BUTTONS
+**************/
+.donate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.project-donate-button {
+    background-color: #0bcfbb;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    height: 60px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/**********************************
+SHARE PROJECT & SOCIAL MEDIA ICONS
+***********************************/
+.share-project {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+
+.project-social-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-instagram-icon {
+    height: 25px;
+    float: left;
+    padding-right: 1vh;
+    margin-bottom: 12px;
+}
+
+.project-facebook-icon {
+    height: 25px;
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 12px;
+}
+
+.project-linkedin-icon {
+    height: 25px;
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 12px;
+}
+
+.project-images {
+    display: block;
+    width: 20vw;
+    padding: 4vh;
+
+}
+
+
+/************
+ LINES
+ ************/
+:root {
+    --line-color: #0BCFBB;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+#main-area {
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+}
+
+.line-box-container {
+    width: 75%;
+    height: 100%;
+    justify-content: center;
+    margin-left: 25vh;
+}
+
+.line-box-container .line-box {
+    width: 100%;
+    min-height: 300px;
+    box-sizing: border-box;
+    position: relative;
+    transition: 0.5s height;
+    justify-content: center;
+}
+
+.line-box .content::before {
+    position: absolute;
+    top: -9px;
+    padding: 0 10px;
+    background-color: white;
+}
+.line-box .line-box-title-text::before {
+    content: attr(data-title);
+    position: absolute;
+    top: -9px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0 10px;
+    margin-left: -10px;
+    background-color: white;
+}
+
+
+.line-box .line-box-title-text::after {
+    content: attr(data-title);
+    position: absolute;
+    top: -9px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0 10px;
+    margin-left: -10px;
+    background-color: white;
+}
+
+.line-box .line-box-title-text {
+    position: absolute;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    top: -9px !important;
+}
+
+.line-box-title-text p {
+    margin: 0 0 0 5vh;
+    padding: 0 2vh 0 2vh;
+    background-color: white; /* TMP */
+}
+
+.line-box-container .line-box:nth-child(1) {
+    margin-top: 15vh;
+    width: 50%;
+}
+
+.line-box-container .line-box:nth-child(2) {
+    width: 50%;
+    left: 50%;
+    display: inline-block;
+    flex-direction: row;
+}
+
+.line-box-container .line-box:nth-child(1) {
+    border-right: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}
+
+.line-box-container .line-box:nth-child(2) {
+    border-right: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}
+
+
+.line-box-container .line-box:nth-child(3) {
+    border-left: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}
+
+.line-box-container .line-box:nth-child(4) {
+    border-right: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}
+
+
+.line-box-container .line-box:nth-child(5) {
+    border-left: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}
+
+
+.line-box-container .line-box:nth-child(6) {
+    border-right: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}

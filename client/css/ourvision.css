@@ -1,0 +1,242 @@
+/****************************
+ PLACEMENT ON OUR VISION PAGE
+ *****************************/
+.our-vision-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.our-vision-content {
+    width: 75%;
+}
+
+.our-vision-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+
+.ov-p-container {
+    width: 65vw;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    column-gap: 80px;
+    display: grid;
+}
+
+/***************************************
+ OUR VISION - FIRST PARAGRAPH WITH MOTTO
+ ****************************************/
+.our-vision {
+    font-size: 48px !important;
+    font-weight: lighter;
+    margin: -20px 0 0 2vw !important;
+}
+
+.ov-container {
+    width: 65vw;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    column-gap: 80px;
+    display: grid;
+}
+
+.ov-header {
+    font-size: 60px;
+    letter-spacing: 0.06em;
+    font-weight: bolder;
+    margin-top: -2vh;
+}
+
+.ov-p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 0;
+    text-align: justify;
+}
+
+.ov-motto {
+    color: #0BCFBB;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.motto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vh;
+    margin-left: 5vh;
+    width: 40vh;
+}
+
+/********************
+ BENEFITS FOR DONORS
+ ********************/
+.benefits-for-donors {
+    font-size: 42px !important;
+    font-weight: lighter !important;
+    margin: -20px 0 0 28vw !important;
+}
+
+.ov-logo {
+    height: 45vh;
+}
+
+/**************************
+ BENEFITS FOR NON PROFITS
+ **************************/
+.benefits-for-non-profits {
+    font-size: 42px !important;
+    font-weight: lighter !important;
+    margin: -20px 0 0 2vw !important;
+}
+
+.ov-second-header {
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.education-image {
+    height: 39vh;
+}
+
+/***********
+ UN GOALS
+ ***********/
+.un-goals {
+    font-size: 42px !important;
+    font-weight: lighter !important;
+    margin: -20px 0 0 51vw !important;
+}
+
+.ov-united-goals-container {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8vh;
+    text-align: right;
+}
+
+.ov-ung-container {
+    justify-content: center;
+    column-gap: 80px;
+    display: grid;
+}
+
+.ov-ung-p {
+    text-align: right;
+    margin-right: 10vh;
+    font-size: 20px;
+}
+
+.un-image-container {
+    margin: 0 5vw 10vh 0;
+}
+
+.un-image {
+    width: 65vw;
+}
+
+/*****************
+ FOCUS UN GOALS
+ *****************/
+.our-un-focus {
+    font-size: 42px !important;
+    font-weight: lighter !important;
+    margin: -20px 0 0 2vw !important;
+}
+
+.ov-united-focus-container {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8vh;
+    text-align: left;
+}
+
+.ov-unf-container {
+    justify-content: center;
+    column-gap: 80px;
+    display: grid;
+}
+
+.ov-unf-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ov-unf-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.un-image {
+    padding: 2px;
+}
+
+.ov-unf-second-p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/***********************************
+ LINES AND LINE BOX THROUGHOUT PAGE
+ ***********************************/
+:root {
+    --line-color: #0BCFBB;
+}
+
+.line-box-container-our-vision {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.line-box-container-our-vision .line-box {
+    width: 100%;
+    min-height: 300px;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    transition: 0.5s height;
+}
+
+.line-box::before {
+    position: absolute;
+    top: -9px;
+    padding: 0 10px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.line-box .line-box-title-text p {
+    margin: 0;
+    background-color: white; /* TMP */
+}
+
+.line-box-container-our-vision .line-box .content {
+    padding: 10px;
+}
+
+.line-box-container-our-vision .line-box:nth-child(2n-1) {
+    border-left: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}
+
+.line-box-container-our-vision .line-box:nth-child(2n) {
+    border-right: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}

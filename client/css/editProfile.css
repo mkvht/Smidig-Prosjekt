@@ -1,0 +1,49 @@
+.edit-profile-inputs-container{
+    display: flex;
+    flex-direction: row;
+}
+.input-column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    font-weight: 600;
+    margin: 2vw;
+}
+.input-column-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    font-weight: 600;
+    margin: 2vw;
+}
+.input-field{
+    width: 12vw;
+    height: 3vh;
+    padding-left: 0.5vw;
+    border-width: thin;
+    border-radius: 6px;
+    margin: 2vh 0 2vh 0;
+}
+.input-field-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1vw;
+}
+.input-field-split{
+    display: flex;
+    flex-direction: column;
+}
+.smaller-input-field{
+    width: 5vw;
+    height: 3vh;
+    padding-left: 0.5vw;
+    border-radius: 6px;
+    margin: 2vh 0 2vh 0;
+    border-width:thin;
+}
+
+

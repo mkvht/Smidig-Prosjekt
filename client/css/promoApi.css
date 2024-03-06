@@ -1,0 +1,166 @@
+/*PROMO API*/
+.promo-api-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.promo-api-content {
+    width: 75%;
+}
+
+.promo-api-header {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 10vh;
+    letter-spacing: 0.06em;
+}
+
+.promo-api-p {
+    font-weight: bolder;
+    letter-spacing: 0.02em;
+}
+
+.promo-api-paragraph {
+    text-align: justify;
+}
+
+.promo-api-text-container {
+    width: 65vw;
+    margin: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*********************
+MELIORA API COMPONENT
+*********************/
+.promo-api-meliora-api {
+    margin: 0 0 0 2vw !important;
+}
+
+/**************************
+CUSTOMIZE IMAGES COMPONENT
+**************************/
+.promo-api-customize-images {
+    margin: 0 0 0 54vw !important;
+}
+
+.customize-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-api-customize-dropdown-container {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.promo-api-customize-image-size-container {
+    margin-bottom: 10vh;
+    margin-top: 2vh;
+}
+
+
+/*****************
+PREVIEW COMPONENT
+******************/
+.promo-api-preview {
+    margin: 0 0 0 2vw !important;
+}
+
+.promo-api-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10vh;
+}
+
+.promo-api-image {
+    max-width: 900px;
+    height: auto;
+}
+
+.promo-api-preview-info {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.promo-api-buttons a:link {
+    text-decoration: none;
+    color: white;
+}
+
+/***************
+USAGE COMPONENT
+***************/
+.promo-api-usage {
+    margin: 0 0 0 64vw !important;
+}
+
+.promo-api-url {
+    width: 600px;
+    height: 25px;
+}
+
+.promo-api-buttons {
+    margin: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/**************
+LINES
+**************/
+:root {
+    --line-color: #0BCFBB;
+}
+
+.line-box-container-promo-api {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.line-box-container-promo-api .line-box {
+    width: 100%;
+    min-height: 300px;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    transition: 0.5s height;
+}
+
+.line-box::before {
+    position: absolute;
+    top: -9px;
+    padding: 0 10px;
+    margin-left: -10px;
+    background-color: white;
+}
+
+
+.line-box .line-box-title-text p {
+    margin: 0;
+    background-color: white; /* TMP */
+}
+
+
+.line-box-container-promo-api .line-box .content {
+    padding: 10px;
+}
+
+.line-box-container-promo-api .line-box:nth-child(2n-1) {
+    border-left: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}
+
+.line-box-container-promo-api .line-box:nth-child(2n) {
+    border-right: 2px var(--line-color) solid;
+    border-top: 2px var(--line-color) solid;
+}

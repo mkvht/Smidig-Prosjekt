@@ -1,0 +1,14 @@
+
+.checkbox-field{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+ }
+
+.checkbox-field-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0 0.5vw 2vh 0.5vw;
+}

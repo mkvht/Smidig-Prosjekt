@@ -1,0 +1,700 @@
+/* FRONTPAGE HEADER */
+.fp-logo-img {
+    height: 45vh;
+    margin-left: -55vw;
+}
+
+.fp-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fp-header-content {
+    position: absolute;
+    top: 30vh;
+}
+
+/* FRONTPAGE GLOBALS */
+main h1, h2, h3, p {
+    font-family: 'Montserrat', sans-serif;
+    color: #2A293C;
+}
+
+.fp-header-h1 {
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.4em;
+    font-size: 64px;
+}
+
+.fp-header-h3 {
+    margin: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+}
+
+.fp-header-p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+}
+
+.fp-main-h2 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    margin-top: 100px;
+}
+
+/* IMPACT / OUR VISION PART */
+.impact-vision-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.iv-item {
+    margin-left: 17vh;
+    margin-right: 17vh;
+    align-items: flex-start;
+    width: 53vh;
+}
+
+.iv-p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* TESTIMONIALS */
+.testimonial-container {
+    position: relative;
+    margin-top: 16vh;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-h2 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    margin-top: 20vh;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.testimonial-p {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #0BCFBB;
+    min-height: 15vh;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-top: 0;
+}
+
+.testimonial-img {
+    width: 10vw;
+    position: relative;
+    left: 50%;
+    min-height: 15vh;
+    transform: translateX(-50%);
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    left: 50%;
+    width: 50vw;
+    transform: translateX(-50%);
+}
+.slick-list{
+    position: relative;
+
+}
+/* Slick Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: black;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: black;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '<';
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '>';
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+/*End slick arrows*/
+
+/*Slick Dots*/
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0;
+}
+
+.slick-dots
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    height: fit-content;
+    padding-inline-start: 0;
+}
+.slick-dots li
+{
+    position: relative;
+    display: inline !important;
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+    height: fit-content;
+    cursor: pointer;
+    margin: 0;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: none;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-size: 75px;
+    line-height: 20px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+/*END Slick dots */
+
+/* BLACK STATISTIC BOX */
+.fp-black-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16vh;
+    text-align: center;
+    justify-content: center;
+    background-color: #2A293C;
+
+}
+
+.black-box-item {
+    margin: 17vh 10vh;
+
+}
+
+.black-box-header {
+    display: flex;
+    color: #91E9E0;
+    font-size: 32px !important;
+    letter-spacing: 0.06em;
+    margin: 0;
+    justify-content: center;
+
+}
+
+
+.black-box-p {
+    color: #91E9E0;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    margin-bottom: 0;
+
+}
+
+.fp-star-logo {
+    height: 40px;
+    margin-bottom: 0;
+    margin-right: 5px;
+
+
+}
+
+/* WHY JOIN MELIORA */
+.join-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16vh;
+}
+
+.join-header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.join-header {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    margin-bottom: 10vh;
+}
+
+.join-header-line {
+    color: #0BCFBB;
+    font-size: 50px;
+    margin: 0.7vh 3vh 0 1.2vh;
+}
+
+.join-items-container {
+    display: flex;
+    flex-direction: row;
+    gap: 35vh;
+    margin-bottom: 9vh;
+}
+
+.join-item {
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+}
+
+.join-item-number {
+    font-size: 36px;
+    margin: 0;
+    padding-top: 2.79vh;
+    padding-right: 1vh;
+    color: #0BCFBB;
+}
+
+.join-item-header {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+
+.join-item-p {
+    font-size: 16px;
+}
+
+/*START DONATING*/
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+.fp-startdonating-container {
+    display: flex;
+    margin-top: 3vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fp-startdonating-header {
+    text-align: center;
+    color: #2A293C;
+    letter-spacing: 0.15em;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.fp-startdonating-subheaders {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.fp-startdonating-1:after {
+    background: #0bcfbb;
+    content: " ";
+    display: inline-block;
+    height: 3px;
+    left: 0;
+    margin-left: 43vh;
+    position: absolute;
+    top: 38.5%;
+    width: 608px;
+}
+
+.fp-startdonating-1:before {
+    background: #0bcfbb;
+    content: " ";
+    display: block;
+    height: 602px;
+    margin-right: 45vh;
+    position: absolute;
+    right: 0;
+    top: 38.3%;
+    width: 3px;
+
+}
+
+.fp-startdonating-2:before {
+    background: #0bcfbb;
+    content: " ";
+    display: block;
+    height: 300px;
+    margin-right: 0vh;
+    position: absolute;
+    top: -96.7%;
+    width: 3px;
+    left: 100%;
+}
+
+.fp-startdonating-2:after {
+    background: #0bcfbb;
+    content: " ";
+    display: block;
+    height: 169px;
+    margin-right: 0vh;
+    position: absolute;
+    top: 106%;
+    left: 100%;
+    width: 3px;
+}
+
+.fp-startdonating-3:before {
+    background: #0bcfbb;
+    content: " ";
+    display: block;
+    height: 3px;
+    margin-right: 30.5vh;
+    position: absolute;
+    right: 0;
+    top: 84%;
+    width: 178px;
+
+}
+
+.fp-startdonating-3:after {
+    background: #0bcfbb;
+    content: " ";
+    display: inline-block;
+    height: 3px;
+    left: 0;
+    margin-left: 45.6vh;
+    position: absolute;
+    top: 84%;
+    width: 510px;
+
+}
+
+.fp-startdonating-1 {
+    width: 42vh;
+    margin-left: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    vertical-align: top;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    position: relative;
+}
+
+.fp-startdonating-2 {
+    width: 40vh;
+    margin-left: 110vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    vertical-align: top;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    position: relative;
+
+}
+
+.fp-startdonating-3 {
+    width: 40vh;
+    margin-left: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    vertical-align: top;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    position: relative;
+}
+
+.fp-startdonating-p {
+    margin-top: 2vh;
+}
+
+.fp-startdonating-numbers {
+    font-size: 130px;
+    font-weight: bold;
+    margin: 0px;
+    padding-right: 2vh;
+}
+
+.fp-startdonating-textbox {
+    flex-direction: row;
+    padding-top: 4.26vh;
+}
+
+.fp-startdonating-buttons {
+    background-color: #2A293C;
+    border: none;
+    color: white;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    border-radius: 8px;
+    width: 250px;
+    height: 60px;
+}
+
+.fp-startdonating-buttons:hover {
+    cursor: pointer;
+}
+
+/* OUR TEAM */
+.our-team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16vh;
+}
+
+.our-team-p {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    width: 95vh;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6vh;
+    gap: 17vh;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-image {
+    height: 200px;
+    border-radius: 110px;
+    border: 2px solid #2A293C;
+}
+
+.profile-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.field-p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+
+.profile-email-phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-info-icon {
+    height: 20px;
+}
+
+.info-p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* LINES IN START DONATING PART */
+.fp-startdonating-box {
+    position: relative;
+    width: 70vw;
+    height: 70vh;
+    margin: 20vh auto;
+    border: 4px #0BCFBB solid;
+}
+.fp-startdonating-box p, .fp-startdonating-box h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+}
+.fp-startdonating-box p:nth-child(1) {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+.fp-startdonating-textbox-new {
+    display: inline-block;
+    width: 85%;
+    float: right;
+}
+.fp-startdonating-buttons {
+    margin-top: 20px;
+}
+
+.fp-startdonating-1-new {
+    position: absolute;
+    top: -50px;
+    background-color: #FFF;
+    width: 40%;
+    padding: 10px;
+}
+.fp-startdonating-2-new {
+    position: absolute;
+    top: 100px;
+    right: -140px;
+    background-color: #FFF;
+    width: 40%;
+    padding: 10px;
+}
+.fp-startdonating-3-new {
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
+    background-color: #FFF;
+    width: 40%;
+    padding: 10px;
+}

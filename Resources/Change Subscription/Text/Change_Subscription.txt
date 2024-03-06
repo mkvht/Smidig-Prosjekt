@@ -1,0 +1,34 @@
+X
+This is your current plan (Yearly/Monthly/Quarterly) for the specified project.
+You are making Quarterly donations of $kr to Water Aid
+
+Annually
+DonateProject to X once a year!
+This payment plan will continue until the plan is changed or the project is closed.
+
+Quarterly
+DonateProject to X every quarter (4 times a year).
+This payment plan will continue until the plan is changed or the project is closed.
+
+Monthly
+DonateProject to X every month.
+This payment plan will continue until the plan is changed or the project is closed.
+
+Single payment
+DonateProject a single time to X
+This is a one-time payment that will “discontinue” immediately
+
+Change Subscription Amount
+10000kr
+20000kr
+50000kr
+Input custom amount
+You have chosen to donate a total of $ per year
+
+CHANGE PAYMENT METHOD
+Company Card
+Company Invoice
+
+Confirm changes
+
+Cancel Subscription

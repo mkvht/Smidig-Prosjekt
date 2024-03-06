@@ -1,0 +1,438 @@
+.profile-content {
+    width: 75vw;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+}
+
+.profile-column {
+    column-gap: 4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    row-gap: 4vh;
+    width: 65vw;
+}
+
+/*******************
+PROJECTS YOU SUPPORT
+********************/
+.projects-you-support {
+    margin: 0 0 0 2vw !important;
+    font-size: 18px !important;
+}
+
+.profile-projects-followed-find-project-to-support {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.projects-supported-header {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+}
+
+.projects-supported {
+    width: 35vw;
+    max-width: 500px;
+}
+
+.projects-supported-project-header {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.projects-supported-your-amount-donated {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.projects-supported-donations-this-year {
+    color: #0BCFBB;
+    font-weight: 700;
+}
+
+.projects-supported-total-donations {
+    color: #0BCFBB;
+    font-weight: 700;
+}
+
+.projects-supported-image {
+    border-radius: 8px;
+    height: 25vw;
+    width: 100%;
+    max-height: 312px;
+}
+
+.projects-supported-project-description {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.projects-supported-payment-plan-type {
+    color: #0BCFBB;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 0.04em;
+}
+
+.projects-supported-payment-plan-amount {
+    color: #0BCFBB;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 0.04em;
+}
+
+.projects-supported-buttons {
+    align-content: flex-end;
+}
+
+.projects-supported-change-payment-plan-btn {
+    display: inline-block;
+    height: 4vh;
+    background-color: #2a293c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    text-wrap: normal;
+    text-decoration: none;
+    text-align: start;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+
+.projects-supported-learn-more-btn {
+    display: inline-block;
+    height: 4vh;
+    background-color: #2A293C;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    text-wrap: normal;
+    text-decoration: none;
+    margin-top: 2vh;
+    text-align: start;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+
+/****************
+YOUR IMPACT
+*****************/
+.profile-your-impact {
+    margin: 0 0 0 58vw !important;
+    font-size: 18px !important;
+}
+
+.profile-your-impact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.profile-your-impact-column {
+    column-gap: 4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    row-gap: 4vh;
+    width: 65vw;
+}
+
+.profile-impact {
+    display: inline-block;
+    justify-content: center;
+}
+
+.profile-impact-subheader {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.profile-image-impact-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-impact-impact-text {
+    color: #0BCFBB;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.profile-impact-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2vh;
+}
+
+.profile-your-impact-transaction-history-btn {
+    display: inline-block;
+    height: 4vh;
+    background-color: #2A293C;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    text-wrap: normal;
+    text-decoration: none;
+    margin-bottom: 10vh;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+
+/******************
+PROJECTS YOU FOLLOW
+*******************/
+
+.profile-projects-you-follow {
+    margin: 0 0 0 2vw !important;
+    font-size: 18px !important;
+}
+
+.followed-projects-dropdown-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+
+.profile-column-followed {
+    column-gap: 4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 4vh;
+    width: 65vw;
+
+}
+
+.profile-projects-followed-find-project-to-follow {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.profile-projects-followed-project-header {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.profile-project-followed p {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.profile-projects-followed-project-subheader {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.profile-projects-followed-buttons {
+    display: flex;
+    align-content: flex-end;
+    margin-top: 1vh;
+}
+
+.profile-donate-to-followed-btn {
+    display: inline-block;
+    height: 4vh;
+    background-color: #0bcfbb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    text-decoration: none;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+
+.profile-find-another-project-btn {
+    display: inline-block;
+    height: 4vh;
+    background-color: #2A293C;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1vh;
+    text-align: start;
+    text-decoration: none;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+.profile-projects-followed-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh 1vw;
+}
+
+.profile-project-followed-img-gallery-img1 {
+    width: 30vw;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+.profile-project-followed-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile-project-followed-img-gallery-img2 {
+    width: 15vw;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+.profile-project-followed-img-gallery-img3 {
+    width: 15vw;
+    vertical-align: middle;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+.profile-project-followed-img-gallery-img4 {
+    width: 30vw;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+
+/********************
+PROMOTIONAL MATERIAL
+********************/
+.profile-promotional-material {
+    margin: 0 0 0 48vw !important;
+    font-size: 18px !important
+}
+
+
+.Parent-PromotionalMaterial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 5vw;
+}
+
+.Child1 {
+    line-height: 1.4;
+    text-align: justify;
+    width: 30vw;
+}
+
+.Child2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30vw;
+}
+
+.button-light {
+    display: inline-block;
+    height: 6vh;
+    text-align: start;
+    padding: 1vh 1vw;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/**************
+LINES
+**************/
+:root {
+    --line-color: #0BCFBB;
+}
+
+.line-box-container-profile {
+    width: 75vw;
+    height: 100%;
+    justify-content: center;
+}
+
+.line-box-container-profile .line-box {
+    width: 75vw;
+    min-height: 30vh;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    transition: 0.5s height;
+}
+
+.line-box::before {
+    position: absolute;
+    padding: 0 0.1vw;
+    margin-left: -0.1vw;
+    background-color: white;
+}
+
+
+.line-box .line-box-title-text p {
+    margin: 0;
+    background-color: white; /* TMP */
+}
+
+.line-box .line-box-title-text {
+    top: -1.5vh;
+    letter-spacing: .2em;
+    font-weight: 600;
+    position: absolute;
+}
+
+.line-box-container-profile .line-box .content {
+    padding: 3vh 0.5vw;
+}
+
+.line-box-container-profile .line-box:nth-child(2n-1) {
+    border-left: 0.2vw var(--line-color) solid;
+    border-top: 0.4vh var(--line-color) solid;
+}
+
+.line-box-container-profile .line-box:nth-child(2n) {
+    border-right: 0.2vw var(--line-color) solid;
+    border-top: 0.4vh var(--line-color) solid;
+}
+
+
+
+
+
+
+

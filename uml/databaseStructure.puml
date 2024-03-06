@@ -1,0 +1,148 @@
+/'
+Zero or One	|o--
+Exactly One	||--
+Zero or Many }o--
+One or Many	}|--
+'/
+
+@startuml
+left to right direction
+project }|--|| impact
+project -- follows_project
+project -- project_category
+project }o--|| transaction
+project }o--|| payment_plan
+
+payment_plan ||--o{ users
+
+project_category -- category
+follows_project -- users
+
+transaction ||--o{ users
+
+impact }o--|| user_impact
+user_impact ||--o{ users
+
+users ||-o| testimonial
+consent ||--|| users
+
+class users{
+* user_id : **PK** serial <<generated>>
+--
+* user_openid : varchar(255) <<unique>>
+* user_provider : varchar(255)
+user_company_name : varchar(255)
+user_organization_number : numeric
+user_email : varchar(255)
+user_address : varchar(255)
+user_city : varchar(255)
+user_zipcode : numeric
+user_country : varchar(255)
+user_phone : varchar(255)
+user_logo_path : varchar(255)
+}
+
+class testimonial{
+* testimonial_id : **PK** serial <<generated>>
+--
+* user_id : //FK//
+* testimonial_text
+}
+
+class consent{
+* consent_id : **PK** serial <<generated>>
+--
+* user_id : //FK//
+* consent_terms : boolean
+* consent_privacy_policy : boolean
+* consent_newsletter : boolean
+* consent_logo_rights : boolean
+}
+
+
+class user_impact{
+* user_impact_id : **PK** serial <<generated>>
+--
+* impact_id //FK//
+* user_id //FK//
+* user_impact_amount : integer
+}
+
+
+class impact{
+* impact_id **PK** serial <<generated>>
+--
+* project_id //FK//
+* impact_name : varchar(255)
+* impact_cost : integer
+impact_description : text
+impact_description_past_tense : text
+impact_image_path : varchar(255)
+}
+
+
+class project{
+* project_id: **PK** serial <<generated>>
+--
+* project_name : varchar(255)
+* project_description : varchar(255)
+* project_statement : varchar(255)
+project_description_image_path : varchar(255)
+project_what_we_do_text : text
+project_what_we_do_image_path : varchar(255)
+project_how_it_works_text : text
+project_how_it_works_image_path : varchar(255)
+project_why_text : text
+project_why_image_path : varchar(255)
+project_promo_background_path : varchar(255)
+project_your_impact_1_image_path : varchar(255)
+project_your_impact_2_image_path : varchar(255)
+project_your_impact_text : text
+}
+
+
+class follows_project{
+--
+* user_id //FK//
+* project_id //FK//
+}
+
+
+class project_category{
+--
+* category_id //FK//
+* project_id //FK//
+}
+
+
+class category{
+* category_id: **PK** serial <<generated>>
+--
+* category_name : varchar(255)
+}
+
+
+class transaction{
+* transaction_id **PK** serial <<generated>>
+--
+* user_id //FK//
+* project_id //FK//
+* transaction_amount : integer
+* transaction_date : date
+* transaction_type : varchar(255)
+}
+
+
+class payment_plan{
+* payment_plan_id **PK** serial <<generated>>
+--
+* user_id //FK//
+* project_id //FK//
+* payment_plan_type : varchar(255)
+* payment_plan_date : date
+payment_plan_next_payment_date : date
+* payment_plan_method : varchar(255)
+* payment_plan_amount : integer
+* payment_plan_is_active : boolean
+}
+@enduml

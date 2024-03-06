@@ -1,0 +1,15 @@
+{
+  "prod": {
+    "overwrite": {
+      "driver": "pg",
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "dev": {
+    "overwrite": {
+      "driver": "pg"
+    }
+  }
+}

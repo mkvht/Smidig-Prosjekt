@@ -1,0 +1,44 @@
+
+/* FONT FOR TEKST */
+.thankYouFont{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #0BCFBB;
+    margin-top: 3vh;
+
+}
+
+/* JUSTERING PÅ BILDET */
+.thankYouPicture{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+/* STYLING AV KNAPP */
+.thankYouButton{
+    height: 4vh;
+    Background-Color: #2A293C;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 3vh;
+    padding: 0 2vw;
+}
+
+/* PLASSERING AV KNAPP */
+.thankYouButtonPlacement{
+    display: flex;
+    justify-content: center;
+}
+
+/* POINTER PÅ KNAPP */
+.thankYouButton:hover{
+    cursor: pointer;
+}
+
+

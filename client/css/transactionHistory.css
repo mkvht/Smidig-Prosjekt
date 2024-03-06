@@ -1,0 +1,53 @@
+
+.transaction-select-project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**********
+ DROPDOWN
+***********/
+.dropdown-select{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.8vw;
+    border-radius: 8px;
+    height: 5vh;
+}
+
+.dropdown:before, .dropdown:after {
+    content: "";
+    border: none;
+    margin: 0;
+}
+
+/******************
+ TRANSACTIB TABLE
+*******************/
+.transaction-table-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 6vh 0 4vh 0;
+}
+
+.table {
+    width: 75vw;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 2vh 1vw 2vh 1vw;
+    border-bottom: 0.2vh solid #0BCFBB;
+}
+
+/*********
+ BUTTON
+*********/
+.button:hover {
+    cursor: pointer;
+}

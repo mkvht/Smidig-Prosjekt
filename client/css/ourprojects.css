@@ -1,0 +1,94 @@
+
+/*HEADER "OUR PROJECTS"*/
+.our-projects-header {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 1vh;
+    letter-spacing: 0.14em;
+}
+
+/**********************
+PARAGRAPH "OUR PROJECTS"
+***********************/
+.our-projects-p {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    line-height: 1.4;
+    margin: auto;
+    text-align: justify;
+    width: 70vh;
+}
+
+/***************
+ DROPDOWN MENU
+***************/
+.dropdown{
+    margin-top: 4vh;
+}
+
+.our-projects-dd-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/****************
+ OUR PROJECTS
+*****************/
+.our-projects-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+.our-projects-project-header {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.our-projects-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    row-gap: 70px;
+    min-width: 50%;
+    max-width: 1000px;
+    column-gap: 100px;
+}
+
+.our-projects-project {
+    position: relative;
+    height: fit-content;
+    /*align-content: flex-end*/
+    width: 40vw;
+    max-width: 500px;
+}
+
+.our-projects-image {
+    border-radius: 8px;
+    height: 25vw;
+    width: 100%;
+    max-height: 312px;
+}
+
+.our-projects-project-desc{
+    justify-content: center;
+    line-height: 1.4;
+}
+
+
+/******************
+ BUTTONS CONTAINER
+******************/
+.our-projects-buttons {
+    align-content: flex-end;
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    margin-top: 2vh;
+}
+
+

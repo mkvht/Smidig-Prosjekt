@@ -1,0 +1,51 @@
+*{
+    font-family: Montserrat, sans-serif;
+}
+/*******************
+PROFILE LINKS
+********************/
+.profile-links {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    justify-content: center;
+    margin: 6vh 0 15vh 0;
+}
+
+.profile-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.profile-links a:hover {
+    color: rgba(64, 224, 208, 1) !important;
+    text-decoration: underline;
+}
+
+.profile-links :active {
+    text-decoration: none;
+    color: #0BCFBB;
+    font-size: 20px;
+}
+/*******************
+PROFILE Main Containers and Header
+********************/
+.profile-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-header{
+    font-size: 64px;
+    letter-spacing: 0.14em;
+    margin: 5vh;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}

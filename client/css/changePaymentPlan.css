@@ -1,0 +1,96 @@
+/**********
+ HEADER
+***********/
+.cpp-header {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/*************
+ CURRENT PLAN
+ *************/
+.current-plan-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.current-project-header:before, .current-project-header:after {
+    border-bottom:#0BCFBB 2px solid;
+    content:'';
+    display: inline-block;
+    margin: 4vh;
+    vertical-align: middle;
+    width: 80%;
+}
+
+.current-project-header:before {
+    margin-left:-80%;
+}
+
+.current-project-header:after {
+    margin-right:-80%;
+}
+
+.current-plan-details {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.current-p {
+    margin: 1vh;
+}
+
+/*********************
+ CHANGE PAYMENT PLAN
+ *********************/
+.new-payment-plan-container {
+    margin-top: 3vh;
+}
+
+.change-payment-p {
+    font-size: 20px;
+    letter-spacing: 0.16em;
+    margin-bottom: 6vh;
+    text-align: center;
+}
+
+/***************
+ CHANGE AMOUNT
+****************/
+.new-payment-amount-container {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+/************************
+ CURRENT PAYMENT METHOD
+*************************/
+.new-payment-method-container {
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+/**************************
+ CANCEL PAYMENT PLAN BUTTON
+***************************/
+.cancel-payment-button{
+    border: none;
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+    padding: 25px;
+}
+.cancel-payment-button:hover{
+    color: darkred;
+    cursor: pointer;
+}
